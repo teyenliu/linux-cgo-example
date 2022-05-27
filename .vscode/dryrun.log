@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/liudanny/SourceCode/linux-cgo-example'
+gcc -fPIC -shared -Ihello/include hello/hello.c -o hello/lib/libhello.so
+make: Leaving directory '/home/liudanny/SourceCode/linux-cgo-example'
+ 
